@@ -24,20 +24,21 @@ export const metadata: Metadata = {
   keywords: ["natural pet remedies", "holistic pet care", "herbal pet wellness", "natural pet healing"],
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "any" },
       {
-        url: "/icon-light-32x32.png",
+        url: "/icon-light-32x32.jpg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/icon-dark-32x32.jpg",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/favicon.svg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/apple-icon.jpg",
   },
 }
 
